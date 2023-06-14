@@ -147,7 +147,7 @@ public class Main {
     /**
      * Tests for part B.
      */
-   /* private static void testPartB() {
+    private static void testPartB() {
         Playlist playlist1 = new Playlist();
         for (Song s : playlist1) {
             System.out.println("You should not reach here!");
@@ -274,7 +274,7 @@ public class Main {
     /**
      * Checks numerous scans for a given playlist.
      */
-    /*private static void checkScans(Playlist playlist, String[] artists, int[] durations) {
+    private static void checkScans(Playlist playlist, String[] artists, int[] durations) {
         System.out.println("Starts scanning...");
         for (Song song : playlist) {
             System.out.println(song);
@@ -304,5 +304,5 @@ public class Main {
         }
 
         System.out.println("Done all scanning.");
-    }*/
+    }
 }
