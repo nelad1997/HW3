@@ -70,12 +70,12 @@ public class ArrayStack<E extends Cloneable> implements Stack<E>{
     }
     @Override
     public Iterator<E> iterator() {
-        return new StackIterator(size);
+        return new StackIterator();
     }
     private class StackIterator implements Iterator<E>{
         private int Index;
 
-        public StackIterator(int size) {
+        public StackIterator() {
             this.Index =size-1;
         }
 
